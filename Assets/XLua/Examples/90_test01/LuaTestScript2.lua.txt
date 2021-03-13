@@ -1,0 +1,29 @@
+function DeepPrint (e)
+   if type(e) == "table" then
+       for k,v in pairs(e) do 
+          if k == "exec" then
+            print(k)
+            DeepPrint(v)       
+          end
+       end
+   else 
+    print(e)
+   end
+ end
+
+function start()
+	print("lua start...")
+	print(self.x)
+		print(self.gameObject)
+	DeepPrint(self)
+	self.x = 100
+end
+
+function update()
+	-- print(self.x)
+end
+
+function ondestroy()
+    print("lua destroy")
+end
+
