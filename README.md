@@ -4,5 +4,5 @@ XLua Application
 
 ## U3DScripting
 
-![][Doc/XLuaApp-U3DScripting.png]
+![U3DExample][https://github.com/gadget114514/XLuaApp/blob/main/Doc/XLuaApp-U3DScripting.png?raw=true]
 
